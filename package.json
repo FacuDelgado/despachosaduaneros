@@ -1,0 +1,24 @@
+{
+  "name": "despachosaduaneros",
+  "version": "1.0.0",
+  "description": "despachosaduaneros Website",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FacuDelgado/despachosaduaneros.git"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "monitor": "nodemon app.js",
+    "deploy": "gcloud preview app deploy app.yaml"
+  },
+  "author": "Facundo Delgado",
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "nodemon": "^1.9.1"
+  },
+  "engines": {
+    "node": ">=0.12.7"
+  }
+}
